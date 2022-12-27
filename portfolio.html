@@ -1,141 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <a href="#"><span>Web</span>studio</a>
-        <nav>
-            <ul>
-                <li><a href="#">Studia</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contacts</a></li>
-            </ul>
-        </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+11 (000) 111-11-11">+11 (000) 111-11-11</a></li>
+      <nav class="menu">
+        <a class="logo" href="index.html"><span>Web</span>Studio</a>
+        <ul class="menu_list">
+          <li><a class="menu_link" href="index.html">Studio</a></li>
+          <li>
+            <a class="menu_link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li><a class="menu_link" href="#">Contacts</a></li>
         </ul>
-        <ul>
-            <li>
-                <button type="button">All</button>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <button type="button">Web Site</button>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <button type="button">App</button>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <button type="button">Design</button>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <button type="button">Marketing</button>
-            </li>
-        </ul>
-    </header>   
+      </nav>
+      <ul class="contacts">
+        <li>
+          <a class="link_for_tel" href="mailto:info@devstudio.com">info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="link_for_tel" href="tel:+110001111111">+11(000)111-11-11</a
+          >
+        </li>
+      </ul>
+    </header>
     <main>
-        <section>
-        <ul>
-            <li>
-                <a href="#">
-                    <img src="images/img1s.jpg" alt="it's a program for Telephon">
-                </a>
-                <h2>Banking App Interface Concept</h2>
-                <p>App</p>
-            </li>
+      <section>
+        <ul class="portfolio_buttons">
+          <li><button type="button">All</button></li>
+          <li><button type="button">Web Site</button></li>
+          <li><button type="button">App</button></li>
+          <li><button type="button">Design</button></li>
+          <li><button type="button">Marketing</button></li>
         </ul>
-        <ul>
-            <li>
-                <a href="#">
-                    <img src="images/img2s.jpg" alt="hands hold the phone">
-                </a>
-                <h2>Cashless Payment</h2>
-                <p>Marketing</p>
-            </li>
+        <ul class="portfolio_items">
+          <li>
+            <img
+              width="380"
+              height="300"
+              src="images/img1.jpg"
+              alt="Інтерфейс банківської програми"
+            />
+            <h3>Banking App Interface Concept</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              width="380"
+              height="300"
+              src="images/img2.jpg"
+              alt="Розрахунок телефоном"
+            />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              width="380"
+              height="300"
+              src="images/img3.jpg"
+              alt="Додаток для медетації на комп'ютер"
+            />
+            <h3>Meditaion App</h3>
+            <p>App</p>
+          </li>
         </ul>
-        <ul>
-            <li>
-                <a href="#">
-                    <img src="images/img3s.jpg" alt="Telephon and Netbook">
-                </a>
-                <h2>Meditaion App</h2>
-                <p>App</p>
-            </li>
+        <ul class="portfolio_item">
+          <li>
+            <img
+              width="380"
+              height="300"
+              src="images/img4.jpg"
+              alt="Таксі сервіс"
+            />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              width="380"
+              height="300"
+              src="images/img9.jpg"
+              alt="Скріншот обоїв на телефон"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img
+              width="380"
+              height="300"
+              src="images/img5.jpg"
+              alt="Онлайн курси"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
+          </li>
         </ul>
-        <ul>
-            <li>
-                <a href="#">
-                    <img src="images/img4.jpg" alt="Driver">
-                </a>
-                <h2>Taxi Service</h2>
-                <p>Marketing</p>
-            </li>
+        <ul class="portfolio_item">
+          <li>
+            <img
+              width="380"
+              height="300"
+              src="images/img6.jpg"
+              alt="Концепт історій Інстаграму"
+            />
+            <h3>Instagram Stories Concept</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img
+              width="380"
+              height="300"
+              src="images/img10.jpg"
+              alt="Свіжі, органічні продукти"
+            />
+            <h3>Organic Food</h3>
+            <p>Web Site</p>
+          </li>
+          <li>
+            <img
+              width="380"
+              height="300"
+              src="images/img7.jpg"
+              alt="Освіжаюча кава"
+            />
+            <h3>Fresh Coffee</h3>
+            <p>Web Site</p>
+          </li>
         </ul>
-        <ul>
-            <li>
-                <a href="#">
-                    <img src="images/img9.jpg" alt="Telephon">
-                </a>
-                <h2>Screen Illustrations</h2>
-                <p>Design</p>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a href="#">
-                    <img src="images/img5.jpg" alt="girl is holding the phone">
-                </a>
-                <h2>Online Courses</h2>
-                <p>Marketing</p>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a href="#">
-                    <img src="images/img6.jpg" alt="Instagram Stories Concept">
-                </a>
-                <h2>Instagram Stories Concept</h2>
-                <p>Design</p>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a href="#">
-                    <img src="images/img10.jpg" alt="Organic Food">
-                </a>
-                <h2>Organic Food</h2>
-                <p>Web Site</p>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a href="#">
-                    <img src="images/img7.jpg" alt="Fresh Coffee">
-                </a>
-                <h2>Fresh Coffee</h2>
-                <p>Web Site</p>
-            </li>
-        </ul>
-        </section>
-    </main> 
+      </section>
+    </main>
     <footer>
-        <a href="#"><span>Web</span>studio</a>
-        <p>
-            Increase the flow of customers and sales for your business with digital marketing & growth solutions.  
-        </p>
+      <a class="logo_footera" href="index.html"><span>Web</span>Studio</a>
+      <p>
+        Increase the flow of customers and sales for your business with digital
+        marketing & growth solutions.
+      </p>
     </footer>
-</body>
+  </body>
 </html>

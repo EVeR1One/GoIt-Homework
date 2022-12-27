@@ -1,0 +1,84 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-weight: 500;
+    color: var(--brand-color2);
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --brand-color: #272734;
+    --blu-color: #4d5ae5;
+    --blu-color2: #404bbf;
+    --brand-color2: #2e2f42;
+    --white-color: #fff;
+    --white-color2: #f4f4fd;
+    --white-color3: #e7e9fc;
+  }
+
+.logo {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.4;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--brand-color2);
+  }
+
+  .logo span {
+    color: var(--blu-color);
+  }
+
+header {
+    margin: 0 auto;
+    width: 128px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu_list {
+    display: flex;
+    align-items: center;    
+}
+
+.menu_list a {
+    color: var(--brand-color2);
+}
+
+.menu_link:hover,
+.menu_link:focus {
+    color: var(--brand-color);
+}
+
+.menu_link:active {
+    color: var(--blu-color);  
+}
+
+.contacts {
+    display: flex;
+}
+
+.contacts li a {
+    color: var(--brand-color2);
+}
+
+.link_for_tel:hover,
+.link_for_tel:focus {
+    color: var(--blu-color2);
+}
+
+.link_for_tel:active {
+    color: var(--blu-color2);
+}
+
