@@ -3,15 +3,15 @@
     list-style: none;
     padding: 0;
     margin: 0;
-}
-
-body {
-    font-weight: 500;
+  }
+  
+  body {
+    font-weight: 400;
     color: var(--brand-color2);
     font-family: "Roboto", sans-serif;
-}
-
-:root {
+  }
+  
+  :root {
     --brand-color: #272734;
     --blu-color: #4d5ae5;
     --blu-color2: #404bbf;
@@ -20,9 +20,9 @@ body {
     --white-color2: #f4f4fd;
     --white-color3: #e7e9fc;
   }
-
-.logo {
-    font-weight: 600;
+  
+  .logo {
+    font-weight: 800;
     font-size: 18px;
     line-height: 1.4;
     display: flex;
@@ -31,110 +31,71 @@ body {
     text-transform: uppercase;
     color: var(--brand-color2);
   }
-
+  
   .logo span {
     color: var(--blu-color);
   }
-
-header {
+  
+  header {
     margin: 0 auto;
-    width: 128px;
+    width: 1128px;
     display: flex;
     justify-content: space-between;
-}
-
-.menu {
+  }
+  
+  .header_menu {
     display: flex;
-}
-
-.menu_list {
-    display: flex;
-    align-items: center;    
-}
-
-.menu_list a {
-    color: var(--brand-color2);
-}
-
-.menu_link:hover,
-.menu_link:focus {
-    color: var(--brand-color);
-}
-
-.menu_link:active {
-    color: var(--blu-color);  
-}
-
-.contacts {
-    display: flex;
-}
-
-.contacts li a {
-    color: var(--brand-color2);
-}
-
-.link_for_tel:hover,
-.link_for_tel:focus {
-    color: var(--blu-color2);
-}
-
-.link_for_tel:active {
-    color: var(--blu-color2);
-}
-
-.header_menu {
-    display: flex;
-}
-
-.menu_list {
+  }
+  
+  .header_menu_list {
     display: flex;
     align-items: center;
-}
-
-.menu_list a {
+  }
+  
+  .header_menu_list a {
     color: var(--brand-color2);
-}
-
-.menu_list:hover,
-.menu_list:focus {
+  }
+  
+  .header_menu_link:hover,
+  .header_menu_link:focus {
     color: var(--brand-color);
-}
-
-.menu_list:active {
+  }
+  
+  .header_menu_link:active {
     color: var(--blu-color);
-}
-
-.contact {
+  }
+  
+  .header_contacts {
     display: flex;
-}
-
-.contact li a {
+  }
+  
+  .header_contacts li a {
     color: var(--brand-color);
-}
-
-.contact_link:hover,
-.contact_link:focus {
+  }
+  
+  .header_contact_tell:hover,
+  .header_contact_tell:focus {
     color: var(--brand-color);
-}
-
-.contact_link:active {
-    color: var(--brand-color);
-}
-
-.main-header {
+  }
+  
+  .header_contact_tell:active {
+    color: var(--blu-color);
+  }
+  
+  .main_header {
     background-color: var(--brand-color2);
-}
-
-.main-header h1 {
+  }
+  
+  .main_header h1 {
     font-weight: 600;
     font-size: 56px;
     line-height: 1.08;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white-color);
-}
-
-.main-header button {
+  }
+  
+  .main_header button {
     width: 170px;
     height: 51px;
     left: 635px;
@@ -147,108 +108,120 @@ header {
     color: var(--white-color);
     border: none;
     cursor: pointer;
-}
-
-.main__header button:hover {
+  }
+  
+  .main_header button:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.main__header button:active {
+  }
+  
+  .main_header button:active {
     background: var(--blu-color2);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-.all_text h3 {
+  }
+  
+  .all_text h3 {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-}
-
-.all_text p {
+  }
+  
+  .all_text p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--brand-color);
-}
-
-.main_img h2 {
+  }
+  
+  .main_img h2 {
     font-weight: 600;
     font-size: 36px;
     line-height: 1.12;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-}
-
-.main_team_img {
-    background-color: var(--white-color);
-}
-
-.main_team_img h3 {
+  }
+  
+  .main_img {
+    background-color: var(--white-color2);
+  }
+  
+  .main_team_img h2 {
     font-weight: 600;
     font-size: 36px;
     line-height: 1.12;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-}
-
-.staff h3 {
+  }
+  
+  .staff h3 {
     font-weight: 6003;
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
-}
-
-.staff p {
+  }
+  
+  .staff p {
     font-size: 16px;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--brand-color);
-}
-
-footer {
+  }
+  
+  footer {
     background-color: var(--brand-color2);
-}
-
-footer p {
+  }
+  
+  footer p {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--white-color3);
-}
-
-.logo_footer {
+  }
+  
+  .logo_footer {
+    color: var(--white-color2);
+  }
+  
+      _Portfolio_
+  
+  .portfolio_buttons button {
+    background: var(--white-color2);
+    border: 1px solid var(--white-color3);
+    border-radius: 4px;
+    color: var(--blu-color);
+    cursor: pointer;
+  }
+  
+  .portfolio_all_buttons button:hover,
+  .portfolio_all_buttons button:focus {
+    background: var(--blu-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     color: var(--white-color);
-}
-
-.logo_footera{
-    color: var(--white-color);
-}
-
-.portfolio__buttons button:hover,
-.portfolio__buttons button:focus {
-    background: var(--brand-color);
-    box-shadow: 0px 1px 8px rgba(46, 48, 66, 0.08),
-      0px 1px 1px rgba(46, 48, 66, 0.16), 0px 2px 2px rgba(46, 48, 66, 0.08);
-    color: var(--white-color);
-}
-
-.portfolio__buttons button:active {
-    background: var(--brand-color2);
+  }
+  
+  .portfolio_all_buttons button:active {
+    background: var(--blu-color2);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
     color: var(--white-color);
-}
-
-.portfolio_items h3 {
-    font-weight: 600px;
+  }
+  
+  .portfolio_items_and_img h3 {
+    font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--brand-color2);
-}
+  }
+  
+  .portfolio_items_and_img p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--brand-color);
+  }
