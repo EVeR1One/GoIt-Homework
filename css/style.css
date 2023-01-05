@@ -1,11 +1,11 @@
-* {
+   *  {
     text-decoration: none;
     list-style: none;
     padding: 0;
     margin: 0;
   }
-  
-  body {
+
+  .body {
     color: var(--brand-color2);
     font-family: "Roboto", sans-serif;
   }
@@ -32,8 +32,46 @@
   }
   
   .logo span {
-    color: var(--blu-color);
+    color: var(--blu-color2);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.4;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     font-family: "Releway";
+  }
+
+  .logo span {
+    width: 44px;
+    height: 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .logo p {
+    color: var(--white-color2);
+  }
+
+  .two_end {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.4;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--brand-color2);
+  } 
+
+  .text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   }
   
   header {
@@ -51,31 +89,36 @@
     display: flex;
     align-items: center;
   }
-  
+
   .header_menu_list a {
     color: var(--brand-color2);
   }
   
-  .header_menu_link:hover,
-  .header_menu_link:focus {
-    color: var(--brand-color);
+  .header_menu_link:hover {
+    color: var(--blu-color2);
   }
-  
+
+  .header_menu_link:focus {
+    color: var(--blu-color2);
+  }
+
   .header_menu_link:active {
-    color: var(--blu-color);
+    color: var(--brand-color2);
   }
   
   .header_contacts {
     display: flex;
   }
   
-  .header_contacts li a {
-    color: var(--brand-color);
+  .header_contacts a {
+    color: var(--brand-color2);
   }
   
-  .header_contact_tell:hover,
+  .header_contact_tell:hover {
+    color: var(--blu-color2);
+  }
   .header_contact_tell:focus {
-    color: var(--brand-color);
+    color: var(--blu-color2);
   }
   
   .header_contact_tell:active {
@@ -133,6 +176,13 @@
     letter-spacing: 0.02em;
     color: var(--brand-color);
   }
+
+  .text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--brand-color);
+  }
   
   .main_img h2 {
     font-weight: 600;
@@ -182,14 +232,14 @@
     letter-spacing: 0.02em;
     color: var(--white-color3);
   }
-  
+
   .logo_footer {
     color: var(--white-color2);
     font-family: "Releway";
   }
   
       _Portfolio_
-  
+
 .portfolio_all_buttons button {
     background: var(--white-color2);
     border: 1px solid var(--white-color3);
