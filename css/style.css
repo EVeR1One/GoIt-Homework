@@ -1,11 +1,15 @@
-   *  {
-    text-decoration: none;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
+.list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
 
-  .body {
+.link {
+	text-decoration: none;
+	color: inherit;
+}
+
+  body {
     color: var(--brand-color2);
     font-family: "Roboto", sans-serif;
   }
@@ -31,8 +35,15 @@
     font-family: "Releway";
   }
   
+
   .logo_blue {
-    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #4D5AE5;
   }
 
@@ -62,19 +73,9 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em; 
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
   }
-
-  .two_end {
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.4;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--brand-color2);
-  } 
 
   .text {
     font-size: 16px;
@@ -189,14 +190,14 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
   
-  .benefits h3 {
+  .benefits_title {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
   }
   
-  .benefits p {
+  .benefits_text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -262,6 +263,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
     color: var(--brand-color);
   }
 
@@ -279,19 +281,6 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  }
-  
-  .main_img h2 {
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 1.12;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-  }
-  
-  .main_img {
-    background-color: var(--white-color2);
   }
   
   footer {
