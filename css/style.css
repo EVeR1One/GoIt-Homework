@@ -12,6 +12,7 @@
   body {
     color: var(--brand-color2);
     font-family: "Roboto", sans-serif;
+    margin: 0;
   }
   
   :root {
@@ -30,13 +31,23 @@
     line-height: 1.4;
     display: flex;
     align-items: center;
+    font-style: normal;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     font-family: "Releway";
   }
+
+  .logo {
+    padding: 0 auto;
+    padding-right: 76px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
   
 
   .logo_blue {
+    width: 44px;
+    height: 24px;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
@@ -48,13 +59,14 @@
   }
 
   .logo {
-    height: 24px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 24px;
-    color: #2E2F42;
+   width: 71px;
+   height: 24px;
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.4;
+   color: #2E2F42;
   }
 
   .logo_footer {
@@ -104,7 +116,7 @@
     align-items: center;
   }
 
-  .heder_nav_link {
+  .header_nav_link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -122,6 +134,7 @@
   
   .header_contacts {
     display: flex;
+    gap: 40px ;
   }
 
   .header_menu_list {
@@ -156,12 +169,34 @@
     background-color: var(--brand-color2);
   }
   
-  .main_header h1 {
+
+
+  .main_header_title {
+   width: 496px;
+   height: 120px;
+   left: 472px;
+   top: 260px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 56px;
+   line-height: 60px;
+   text-align: center;
+   letter-spacing: 0.02em;
+  }
+
+  .header_button {
+    text-align: center;
+    padding: 16px  32px;
+  }
+  
+  .main_header_title {
     font-weight: 600;
     font-size: 56px;
     line-height: 1.08;
     text-align: center;
     letter-spacing: 0.02em;
+    margin: 0 auto;
     color: var(--white-color);
   }
   
@@ -222,6 +257,10 @@
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+  }
+
+  .process_title {
+    margin: 0 auto;
   }
 
   .benefits_title {
@@ -318,6 +357,8 @@
     color: var(--white-color);
   }
 
+  
+
   .portfolio_buttons_item button {
     border: var(--white-color2);
     background-color: var(--white-color2);
@@ -331,14 +372,14 @@
     color: var(--white-color);
   }
   
-  .portfoloio_column_item h3 {
+  .portfolio_column_item h3 {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
   }
   
-  .portfoloio_column_item p {
+  .portfolio_column_item p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
