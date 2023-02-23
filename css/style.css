@@ -1,3 +1,5 @@
+
+
 .list {
 	list-style: none;
 	padding: 0;
@@ -10,9 +12,10 @@
 }
 
   body {
+    margin: 0;
+    font-weight: 400;
     color: var(--brand-color2);
     font-family: "Roboto", sans-serif;
-    margin: 0;
   }
   
   :root {
@@ -23,50 +26,23 @@
     --white-color: #fff;
     --white-color2: #f4f4fd;
     --white-color3: #e7e9fc;
+    --modal-input-color: #8e8f99;
   }
   
   .logo {
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.4;
-    display: flex;
-    align-items: center;
+    line-height: 1.17;
+    align-self: center;
     font-style: normal;
+    color: var(--brand-color2) ;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    font-family: "Releway";
-  }
-
-  .logo {
-    padding: 0 auto;
-    padding-right: 76px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    font-family: "Raleway";
   }
   
-
-  .logo_blue {
-    width: 44px;
-    height: 24px;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
-  }
-
-  .logo {
-   width: 71px;
-   height: 24px;
-   font-family: 'Raleway';
-   font-style: normal;
-   font-weight: 800;
-   font-size: 18px;
-   line-height: 1.4;
-   color: #2E2F42;
+  .logo span {
+    color: var(--blu-color);
   }
 
   .logo_footer {
@@ -99,6 +75,22 @@
     margin: 0 auto;
     width: 1128px;
     display: flex;
+    display: block;
+    justify-content: space-between;
+    padding: 0 15px;
+    align-items: center;
+  }
+
+  .container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  section {
+    display: block;
   }
 
   .header_menu {
@@ -133,21 +125,55 @@
   }
   
   .header_contacts {
+    padding: 24px 0;
     display: flex;
-    gap: 40px ;
+    margin-left: auto;
+    flex-direction: row;
+  }
+
+  .header_contacts_link {
+    color: var(--brand-color2);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header_contacts li {
+    margin: 0 0 0 40px;
   }
 
   .header_menu_list {
     display: flex;
     align-items: center;
+    margin: 0 0 0 77px;
+  }
+
+  .header_menu_list li:nth-child(3) {
+    margin: 0;
+  }
+
+  .header_menu_list li {
+    margin: 0 40px 0 0 ;
   }
 
   .header_menu_link {
-    font-weight: 500;
+    padding: 24px 0;
+    position: relative;
+    display: block;
+    color: var(--brand-color2);
+    font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header_menu_link {
+    padding: 24px 0 22px 0;
+    position: relative;
+    display: block;
   }
   
   .header_contacts a {
@@ -168,8 +194,6 @@
   .main_header {
     background-color: var(--brand-color2);
   }
-  
-
 
   .main_header_title {
    width: 496px;
@@ -271,7 +295,7 @@
     color: #2E2F42;
   }
 
-  .benefots_text {
+  .benefits_text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -338,7 +362,24 @@
     font-family: "Releway";
   }
   
-      _Portfolio_
+   _Portfolio_
+
+.portfolio__content {
+  padding: 96px 0 120px 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .portfolio_buttons_item button {
     background: var(--white-color2);
@@ -372,14 +413,14 @@
     color: var(--white-color);
   }
   
-  .portfolio_column_item h3 {
+  .portfolio_column_title {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
   }
   
-  .portfolio_column_item p {
+  .portfolio_column_text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
