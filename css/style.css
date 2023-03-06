@@ -33,7 +33,6 @@
     font-size: 18px;
     line-height: 1.4;
     align-self: center;
-    font-style: normal;
     color: var(--brand-color2) ;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -53,11 +52,11 @@
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
-    display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;
+    font-family: "Raleway";
   }
 
   footer {
@@ -211,6 +210,10 @@
   .header_contact:active {
     color: var(--blu-color);
   }
+
+  .header_contacts li:nth-child(1) {
+    margin: 0;
+  }
   
   .main_header {
     background-color: var(--brand-color2);
@@ -298,9 +301,6 @@
   }
   
   .benefits_title {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1.2;
     letter-spacing: 0.02em;
   }
   
@@ -344,10 +344,11 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--brand-color);
+    margin: 0;
   }
 
   .benefits h3 {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -364,10 +365,6 @@
   }
 
   .benefits_title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #2E2F42;
   }
 
@@ -438,6 +435,7 @@
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--brand-color);
+    margin: 0;
   }
 
   .team_text {
@@ -500,9 +498,13 @@
 
   .logo_footer {
     color: var(--white-color2);
-    font-family: "Releway";
   }
   
+  .portfoloio_column_item {
+    flex-basis: calc((100%-48px)/3);
+    display: flex;
+    flex-direction: column;
+  }
 
 .portfolio__content {
   padding: 96px 0 120px 0;
@@ -519,6 +521,10 @@
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.portfolio_buttons_list li:nth-child(5) {
+  margin: 0;
 }
 
 .portfolio_buttons_item button {
@@ -590,7 +596,6 @@
 
   .portfolio_column_list {
     display: flex;
-    flex-wrap: wrap;
     margin: 72px 0 0 0;
   }
 
